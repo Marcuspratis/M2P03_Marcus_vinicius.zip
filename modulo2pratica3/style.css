@@ -1,0 +1,40 @@
+*body {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    font-family: arial;
+
+}
+header {
+display:flex ;
+justify-content: space-between;
+padding: 20px;
+align-items: center;
+flex-wrap: wrap;
+border: 2px red solid;
+}
+
+section {
+    float: left;
+    display: flex;
+    border: solid red 2px;
+    width: 58%;
+    height: 400px;
+    
+}
+aside {
+float: right;
+width: 39.5%;
+}
+form {
+    height: 400px;
+}
+ section {
+   justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
